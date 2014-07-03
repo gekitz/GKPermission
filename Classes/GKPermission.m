@@ -7,7 +7,7 @@
 //
 
 #import "GKPermission.h"
-#import "UIAlertView+Blocks.h"
+#import <GKBlocks/UIAlertView+GKBlockAddition.h>
 
 @implementation GKPermission
 

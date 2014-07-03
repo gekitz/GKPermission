@@ -1,531 +1,1264 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		C184BC271961DC8F00A98B3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C184BC261961DC8F00A98B3D /* main.m */; };
-		C184BC2A1961DC8F00A98B3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C184BC291961DC8F00A98B3D /* AppDelegate.m */; };
-		C184BC2D1961DC8F00A98B3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C184BC2C1961DC8F00A98B3D /* ViewController.m */; };
-		C184BC321961DC8F00A98B3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C184BC311961DC8F00A98B3D /* Images.xcassets */; };
-		C184BC3E1961DC8F00A98B3D /* GKPermissionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C184BC3D1961DC8F00A98B3D /* GKPermissionTests.m */; };
-		C1E942481961FF700079E497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E942461961FF700079E497 /* Main.storyboard */; };
-		C1E9424A196201220079E497 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1E94249196201220079E497 /* Localizable.strings */; };
-		C1E9424D1962A0EE0079E497 /* GKPhotoPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E9424C1962A0EE0079E497 /* GKPhotoPermission.m */; };
-		C1E942501962A1270079E497 /* GKPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E9424F1962A1270079E497 /* GKPermission.m */; };
-		C1E942531962A8FB0079E497 /* GKLocationPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E942521962A8FB0079E497 /* GKLocationPermission.m */; };
-		C1E942551962B5450079E497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1E942541962B5450079E497 /* InfoPlist.strings */; };
-		C1E94287196322F10079E497 /* GKContactPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E94286196322F10079E497 /* GKContactPermission.m */; };
-		C1E9428A19633FC00079E497 /* GKSocialPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E9428919633FC00079E497 /* GKSocialPermissions.m */; };
-		C1E9428D1963482D0079E497 /* GKNotificationPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E9428C1963482D0079E497 /* GKNotificationPermission.m */; };
-		F53237C160724911984CD202 /* libPods-GKPermissionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8AD2B37F7A4F9F859796ED /* libPods-GKPermissionTests.a */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C184BC381961DC8F00A98B3D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C184BC191961DC8F00A98B3D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C184BC201961DC8F00A98B3D;
-			remoteInfo = GKPermission;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		4BDDEAD98FC74CD98F919431 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C8AD2B37F7A4F9F859796ED /* libPods-GKPermissionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GKPermissionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79EE135099374DF1B2CEE2DE /* libPods-GKPermission.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GKPermission.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C184BC211961DC8F00A98B3D /* GKPermission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GKPermission.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C184BC251961DC8F00A98B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C184BC261961DC8F00A98B3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C184BC281961DC8F00A98B3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C184BC291961DC8F00A98B3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C184BC2B1961DC8F00A98B3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C184BC2C1961DC8F00A98B3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C184BC311961DC8F00A98B3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C184BC371961DC8F00A98B3D /* GKPermissionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GKPermissionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C184BC3C1961DC8F00A98B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C184BC3D1961DC8F00A98B3D /* GKPermissionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GKPermissionTests.m; sourceTree = "<group>"; };
-		C1E942471961FF700079E497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1E94249196201220079E497 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		C1E9424B1962A0EE0079E497 /* GKPhotoPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKPhotoPermission.h; path = Classes/GKPhotoPermission.h; sourceTree = "<group>"; };
-		C1E9424C1962A0EE0079E497 /* GKPhotoPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKPhotoPermission.m; path = Classes/GKPhotoPermission.m; sourceTree = "<group>"; };
-		C1E9424E1962A1270079E497 /* GKPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKPermission.h; path = Classes/GKPermission.h; sourceTree = "<group>"; };
-		C1E9424F1962A1270079E497 /* GKPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKPermission.m; path = Classes/GKPermission.m; sourceTree = "<group>"; };
-		C1E942511962A8FB0079E497 /* GKLocationPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKLocationPermission.h; path = Classes/GKLocationPermission.h; sourceTree = "<group>"; };
-		C1E942521962A8FB0079E497 /* GKLocationPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKLocationPermission.m; path = Classes/GKLocationPermission.m; sourceTree = "<group>"; };
-		C1E942541962B5450079E497 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
-		C1E94285196322F10079E497 /* GKContactPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKContactPermission.h; path = Classes/GKContactPermission.h; sourceTree = "<group>"; };
-		C1E94286196322F10079E497 /* GKContactPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKContactPermission.m; path = Classes/GKContactPermission.m; sourceTree = "<group>"; };
-		C1E9428819633FC00079E497 /* GKSocialPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKSocialPermissions.h; path = Classes/GKSocialPermissions.h; sourceTree = "<group>"; };
-		C1E9428919633FC00079E497 /* GKSocialPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKSocialPermissions.m; path = Classes/GKSocialPermissions.m; sourceTree = "<group>"; };
-		C1E9428B1963482D0079E497 /* GKNotificationPermission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GKNotificationPermission.h; path = Classes/GKNotificationPermission.h; sourceTree = "<group>"; };
-		C1E9428C1963482D0079E497 /* GKNotificationPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GKNotificationPermission.m; path = Classes/GKNotificationPermission.m; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		C184BC1E1961DC8F00A98B3D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C184BC341961DC8F00A98B3D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F53237C160724911984CD202 /* libPods-GKPermissionTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		25ABF3CB296D4B7D951D063B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				79EE135099374DF1B2CEE2DE /* libPods-GKPermission.a */,
-				4C8AD2B37F7A4F9F859796ED /* libPods-GKPermissionTests.a */,
-				4BDDEAD98FC74CD98F919431 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C172E9CB1961DDE700C1B77E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C1E9424E1962A1270079E497 /* GKPermission.h */,
-				C1E9424F1962A1270079E497 /* GKPermission.m */,
-				C1E9424B1962A0EE0079E497 /* GKPhotoPermission.h */,
-				C1E9424C1962A0EE0079E497 /* GKPhotoPermission.m */,
-				C1E942511962A8FB0079E497 /* GKLocationPermission.h */,
-				C1E942521962A8FB0079E497 /* GKLocationPermission.m */,
-				C1E94285196322F10079E497 /* GKContactPermission.h */,
-				C1E94286196322F10079E497 /* GKContactPermission.m */,
-				C1E9428819633FC00079E497 /* GKSocialPermissions.h */,
-				C1E9428919633FC00079E497 /* GKSocialPermissions.m */,
-				C1E9428B1963482D0079E497 /* GKNotificationPermission.h */,
-				C1E9428C1963482D0079E497 /* GKNotificationPermission.m */,
-				C1E94249196201220079E497 /* Localizable.strings */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		C184BC181961DC8F00A98B3D = {
-			isa = PBXGroup;
-			children = (
-				C172E9CB1961DDE700C1B77E /* Classes */,
-				C184BC231961DC8F00A98B3D /* GKPermission */,
-				C184BC3A1961DC8F00A98B3D /* GKPermissionTests */,
-				C184BC221961DC8F00A98B3D /* Products */,
-				25ABF3CB296D4B7D951D063B /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		C184BC221961DC8F00A98B3D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C184BC211961DC8F00A98B3D /* GKPermission.app */,
-				C184BC371961DC8F00A98B3D /* GKPermissionTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C184BC231961DC8F00A98B3D /* GKPermission */ = {
-			isa = PBXGroup;
-			children = (
-				C184BC281961DC8F00A98B3D /* AppDelegate.h */,
-				C184BC291961DC8F00A98B3D /* AppDelegate.m */,
-				C184BC2B1961DC8F00A98B3D /* ViewController.h */,
-				C184BC2C1961DC8F00A98B3D /* ViewController.m */,
-				C1E942461961FF700079E497 /* Main.storyboard */,
-				C184BC311961DC8F00A98B3D /* Images.xcassets */,
-				C184BC241961DC8F00A98B3D /* Supporting Files */,
-			);
-			path = GKPermission;
-			sourceTree = "<group>";
-		};
-		C184BC241961DC8F00A98B3D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C184BC251961DC8F00A98B3D /* Info.plist */,
-				C1E942541962B5450079E497 /* InfoPlist.strings */,
-				C184BC261961DC8F00A98B3D /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C184BC3A1961DC8F00A98B3D /* GKPermissionTests */ = {
-			isa = PBXGroup;
-			children = (
-				C184BC3D1961DC8F00A98B3D /* GKPermissionTests.m */,
-				C184BC3B1961DC8F00A98B3D /* Supporting Files */,
-			);
-			path = GKPermissionTests;
-			sourceTree = "<group>";
-		};
-		C184BC3B1961DC8F00A98B3D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C184BC3C1961DC8F00A98B3D /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		C184BC201961DC8F00A98B3D /* GKPermission */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C184BC411961DC8F00A98B3D /* Build configuration list for PBXNativeTarget "GKPermission" */;
-			buildPhases = (
-				C184BC1D1961DC8F00A98B3D /* Sources */,
-				C184BC1E1961DC8F00A98B3D /* Frameworks */,
-				C184BC1F1961DC8F00A98B3D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = GKPermission;
-			productName = GKPermission;
-			productReference = C184BC211961DC8F00A98B3D /* GKPermission.app */;
-			productType = "com.apple.product-type.application";
-		};
-		C184BC361961DC8F00A98B3D /* GKPermissionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C184BC441961DC8F00A98B3D /* Build configuration list for PBXNativeTarget "GKPermissionTests" */;
-			buildPhases = (
-				85D756751B474E1AB89A8B1B /* Check Pods Manifest.lock */,
-				C184BC331961DC8F00A98B3D /* Sources */,
-				C184BC341961DC8F00A98B3D /* Frameworks */,
-				C184BC351961DC8F00A98B3D /* Resources */,
-				F401EE52F1A8402DAC2B7FC1 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C184BC391961DC8F00A98B3D /* PBXTargetDependency */,
-			);
-			name = GKPermissionTests;
-			productName = GKPermissionTests;
-			productReference = C184BC371961DC8F00A98B3D /* GKPermissionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		C184BC191961DC8F00A98B3D /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = "Aurora Apps";
-				TargetAttributes = {
-					C184BC201961DC8F00A98B3D = {
-						CreatedOnToolsVersion = 6.0;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 1;
-							};
-						};
-					};
-					C184BC361961DC8F00A98B3D = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = C184BC201961DC8F00A98B3D;
-					};
-				};
-			};
-			buildConfigurationList = C184BC1C1961DC8F00A98B3D /* Build configuration list for PBXProject "GKPermission" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = C184BC181961DC8F00A98B3D;
-			productRefGroup = C184BC221961DC8F00A98B3D /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				C184BC201961DC8F00A98B3D /* GKPermission */,
-				C184BC361961DC8F00A98B3D /* GKPermissionTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		C184BC1F1961DC8F00A98B3D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C184BC321961DC8F00A98B3D /* Images.xcassets in Resources */,
-				C1E942551962B5450079E497 /* InfoPlist.strings in Resources */,
-				C1E9424A196201220079E497 /* Localizable.strings in Resources */,
-				C1E942481961FF700079E497 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C184BC351961DC8F00A98B3D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		85D756751B474E1AB89A8B1B /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F401EE52F1A8402DAC2B7FC1 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-GKPermissionTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		C184BC1D1961DC8F00A98B3D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C184BC2D1961DC8F00A98B3D /* ViewController.m in Sources */,
-				C1E9424D1962A0EE0079E497 /* GKPhotoPermission.m in Sources */,
-				C1E9428A19633FC00079E497 /* GKSocialPermissions.m in Sources */,
-				C184BC2A1961DC8F00A98B3D /* AppDelegate.m in Sources */,
-				C1E942531962A8FB0079E497 /* GKLocationPermission.m in Sources */,
-				C184BC271961DC8F00A98B3D /* main.m in Sources */,
-				C1E9428D1963482D0079E497 /* GKNotificationPermission.m in Sources */,
-				C1E942501962A1270079E497 /* GKPermission.m in Sources */,
-				C1E94287196322F10079E497 /* GKContactPermission.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C184BC331961DC8F00A98B3D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C184BC3E1961DC8F00A98B3D /* GKPermissionTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C184BC391961DC8F00A98B3D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C184BC201961DC8F00A98B3D /* GKPermission */;
-			targetProxy = C184BC381961DC8F00A98B3D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C1E942461961FF700079E497 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1E942471961FF700079E497 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		C184BC3F1961DC8F00A98B3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				METAL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		C184BC401961DC8F00A98B3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				METAL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C184BC421961DC8F00A98B3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = GKPermission/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		C184BC431961DC8F00A98B3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = GKPermission/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		C184BC451961DC8F00A98B3D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GKPermission.app/GKPermission";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GKPermissionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		C184BC461961DC8F00A98B3D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GKPermission.app/GKPermission";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = GKPermissionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		C184BC1C1961DC8F00A98B3D /* Build configuration list for PBXProject "GKPermission" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C184BC3F1961DC8F00A98B3D /* Debug */,
-				C184BC401961DC8F00A98B3D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C184BC411961DC8F00A98B3D /* Build configuration list for PBXNativeTarget "GKPermission" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C184BC421961DC8F00A98B3D /* Debug */,
-				C184BC431961DC8F00A98B3D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C184BC441961DC8F00A98B3D /* Build configuration list for PBXNativeTarget "GKPermissionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C184BC451961DC8F00A98B3D /* Debug */,
-				C184BC461961DC8F00A98B3D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = C184BC191961DC8F00A98B3D /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>25ABF3CB296D4B7D951D063B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B0FD1B22BECD476AB7C04F1C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>424F62EB966A4B29876ACD7D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-GKPermission-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>4CD1DF113E9443729CA9E7AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-GKPermission.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods-GKPermission.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85D756751B474E1AB89A8B1B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>B0FD1B22BECD476AB7C04F1C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-GKPermission.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B6273807CB1343148BC1CEC9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>C172E9CB1961DDE700C1B77E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C1E9424E1962A1270079E497</string>
+				<string>C1E9424F1962A1270079E497</string>
+				<string>C1E9424B1962A0EE0079E497</string>
+				<string>C1E9424C1962A0EE0079E497</string>
+				<string>C1E942511962A8FB0079E497</string>
+				<string>C1E942521962A8FB0079E497</string>
+				<string>C1E94285196322F10079E497</string>
+				<string>C1E94286196322F10079E497</string>
+				<string>C1E9428819633FC00079E497</string>
+				<string>C1E9428919633FC00079E497</string>
+				<string>C1E9428B1963482D0079E497</string>
+				<string>C1E9428C1963482D0079E497</string>
+				<string>C1E94249196201220079E497</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC181961DC8F00A98B3D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C172E9CB1961DDE700C1B77E</string>
+				<string>C184BC231961DC8F00A98B3D</string>
+				<string>C184BC3A1961DC8F00A98B3D</string>
+				<string>C184BC221961DC8F00A98B3D</string>
+				<string>25ABF3CB296D4B7D951D063B</string>
+				<string>4CD1DF113E9443729CA9E7AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC191961DC8F00A98B3D</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0600</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Aurora Apps</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>C184BC201961DC8F00A98B3D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.0</string>
+						<key>SystemCapabilities</key>
+						<dict>
+							<key>com.apple.BackgroundModes</key>
+							<dict>
+								<key>enabled</key>
+								<string>1</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>C184BC361961DC8F00A98B3D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.0</string>
+						<key>TestTargetID</key>
+						<string>C184BC201961DC8F00A98B3D</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>C184BC1C1961DC8F00A98B3D</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>C184BC181961DC8F00A98B3D</string>
+			<key>productRefGroup</key>
+			<string>C184BC221961DC8F00A98B3D</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>C184BC201961DC8F00A98B3D</string>
+				<string>C184BC361961DC8F00A98B3D</string>
+			</array>
+		</dict>
+		<key>C184BC1C1961DC8F00A98B3D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C184BC3F1961DC8F00A98B3D</string>
+				<string>C184BC401961DC8F00A98B3D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C184BC1D1961DC8F00A98B3D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C184BC2D1961DC8F00A98B3D</string>
+				<string>C1E9424D1962A0EE0079E497</string>
+				<string>C1E9428A19633FC00079E497</string>
+				<string>C184BC2A1961DC8F00A98B3D</string>
+				<string>C1E942531962A8FB0079E497</string>
+				<string>C184BC271961DC8F00A98B3D</string>
+				<string>C1E9428D1963482D0079E497</string>
+				<string>C1E942501962A1270079E497</string>
+				<string>C1E94287196322F10079E497</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C184BC1E1961DC8F00A98B3D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CFB1570FBF55407E9660217A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C184BC1F1961DC8F00A98B3D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C184BC321961DC8F00A98B3D</string>
+				<string>C1E942551962B5450079E497</string>
+				<string>C1E9424A196201220079E497</string>
+				<string>C1E942481961FF700079E497</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C184BC201961DC8F00A98B3D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C184BC411961DC8F00A98B3D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>B6273807CB1343148BC1CEC9</string>
+				<string>C184BC1D1961DC8F00A98B3D</string>
+				<string>C184BC1E1961DC8F00A98B3D</string>
+				<string>C184BC1F1961DC8F00A98B3D</string>
+				<string>424F62EB966A4B29876ACD7D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>GKPermission</string>
+			<key>productName</key>
+			<string>GKPermission</string>
+			<key>productReference</key>
+			<string>C184BC211961DC8F00A98B3D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>C184BC211961DC8F00A98B3D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>GKPermission.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C184BC221961DC8F00A98B3D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C184BC211961DC8F00A98B3D</string>
+				<string>C184BC371961DC8F00A98B3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC231961DC8F00A98B3D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C184BC281961DC8F00A98B3D</string>
+				<string>C184BC291961DC8F00A98B3D</string>
+				<string>C184BC2B1961DC8F00A98B3D</string>
+				<string>C184BC2C1961DC8F00A98B3D</string>
+				<string>C1E942461961FF700079E497</string>
+				<string>C184BC311961DC8F00A98B3D</string>
+				<string>C184BC241961DC8F00A98B3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>GKPermission</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC241961DC8F00A98B3D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C184BC251961DC8F00A98B3D</string>
+				<string>C1E942541962B5450079E497</string>
+				<string>C184BC261961DC8F00A98B3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC251961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC261961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC271961DC8F00A98B3D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C184BC261961DC8F00A98B3D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C184BC281961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC291961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC2A1961DC8F00A98B3D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C184BC291961DC8F00A98B3D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C184BC2B1961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC2C1961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC2D1961DC8F00A98B3D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C184BC2C1961DC8F00A98B3D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C184BC311961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC321961DC8F00A98B3D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C184BC311961DC8F00A98B3D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C184BC331961DC8F00A98B3D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C184BC3E1961DC8F00A98B3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C184BC341961DC8F00A98B3D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C184BC351961DC8F00A98B3D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C184BC361961DC8F00A98B3D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>C184BC441961DC8F00A98B3D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>85D756751B474E1AB89A8B1B</string>
+				<string>C184BC331961DC8F00A98B3D</string>
+				<string>C184BC341961DC8F00A98B3D</string>
+				<string>C184BC351961DC8F00A98B3D</string>
+				<string>F401EE52F1A8402DAC2B7FC1</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>C184BC391961DC8F00A98B3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>GKPermissionTests</string>
+			<key>productName</key>
+			<string>GKPermissionTests</string>
+			<key>productReference</key>
+			<string>C184BC371961DC8F00A98B3D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>C184BC371961DC8F00A98B3D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>GKPermissionTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C184BC381961DC8F00A98B3D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>C184BC191961DC8F00A98B3D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>C184BC201961DC8F00A98B3D</string>
+			<key>remoteInfo</key>
+			<string>GKPermission</string>
+		</dict>
+		<key>C184BC391961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>C184BC201961DC8F00A98B3D</string>
+			<key>targetProxy</key>
+			<string>C184BC381961DC8F00A98B3D</string>
+		</dict>
+		<key>C184BC3A1961DC8F00A98B3D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C184BC3D1961DC8F00A98B3D</string>
+				<string>C184BC3B1961DC8F00A98B3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>GKPermissionTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC3B1961DC8F00A98B3D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C184BC3C1961DC8F00A98B3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC3C1961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC3D1961DC8F00A98B3D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>GKPermissionTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C184BC3E1961DC8F00A98B3D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C184BC3D1961DC8F00A98B3D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C184BC3F1961DC8F00A98B3D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>METAL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C184BC401961DC8F00A98B3D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>METAL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C184BC411961DC8F00A98B3D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C184BC421961DC8F00A98B3D</string>
+				<string>C184BC431961DC8F00A98B3D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C184BC421961DC8F00A98B3D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4CD1DF113E9443729CA9E7AC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>INFOPLIST_FILE</key>
+				<string>GKPermission/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C184BC431961DC8F00A98B3D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4CD1DF113E9443729CA9E7AC</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+				<key>INFOPLIST_FILE</key>
+				<string>GKPermission/Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>7.1</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C184BC441961DC8F00A98B3D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>C184BC451961DC8F00A98B3D</string>
+				<string>C184BC461961DC8F00A98B3D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>C184BC451961DC8F00A98B3D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/GKPermission.app/GKPermission</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>GKPermissionTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>METAL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>C184BC461961DC8F00A98B3D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(BUILT_PRODUCTS_DIR)/GKPermission.app/GKPermission</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>GKPermissionTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>METAL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUNDLE_LOADER)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>C1E942461961FF700079E497</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C1E942471961FF700079E497</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E942471961FF700079E497</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E942481961FF700079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E942461961FF700079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1E94249196201220079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>path</key>
+			<string>Localizable.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E9424A196201220079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E94249196201220079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1E9424B1962A0EE0079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GKPhotoPermission.h</string>
+			<key>path</key>
+			<string>Classes/GKPhotoPermission.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E9424C1962A0EE0079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GKPhotoPermission.m</string>
+			<key>path</key>
+			<string>Classes/GKPhotoPermission.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E9424D1962A0EE0079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E9424C1962A0EE0079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1E9424E1962A1270079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GKPermission.h</string>
+			<key>path</key>
+			<string>Classes/GKPermission.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E9424F1962A1270079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GKPermission.m</string>
+			<key>path</key>
+			<string>Classes/GKPermission.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E942501962A1270079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E9424F1962A1270079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1E942511962A8FB0079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GKLocationPermission.h</string>
+			<key>path</key>
+			<string>Classes/GKLocationPermission.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E942521962A8FB0079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GKLocationPermission.m</string>
+			<key>path</key>
+			<string>Classes/GKLocationPermission.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E942531962A8FB0079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E942521962A8FB0079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1E942541962B5450079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>path</key>
+			<string>InfoPlist.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E942551962B5450079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E942541962B5450079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1E94285196322F10079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GKContactPermission.h</string>
+			<key>path</key>
+			<string>Classes/GKContactPermission.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E94286196322F10079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GKContactPermission.m</string>
+			<key>path</key>
+			<string>Classes/GKContactPermission.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E94287196322F10079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E94286196322F10079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1E9428819633FC00079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GKSocialPermissions.h</string>
+			<key>path</key>
+			<string>Classes/GKSocialPermissions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E9428919633FC00079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GKSocialPermissions.m</string>
+			<key>path</key>
+			<string>Classes/GKSocialPermissions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E9428A19633FC00079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E9428919633FC00079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C1E9428B1963482D0079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>GKNotificationPermission.h</string>
+			<key>path</key>
+			<string>Classes/GKNotificationPermission.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E9428C1963482D0079E497</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>GKNotificationPermission.m</string>
+			<key>path</key>
+			<string>Classes/GKNotificationPermission.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C1E9428D1963482D0079E497</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C1E9428C1963482D0079E497</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CFB1570FBF55407E9660217A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B0FD1B22BECD476AB7C04F1C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F401EE52F1A8402DAC2B7FC1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-GKPermissionTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>C184BC191961DC8F00A98B3D</string>
+</dict>
+</plist>
