@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  GKPermission
+
+  Created by Georg Kitz on 30/06/14.
+  Copyright (c) 2014 Aurora Apps. All rights reserved.
+*/
+
+
+"Permission.Information" = "Information";
+"Permission.NotNow" = "Not Now";
+"Permission.Yes" = "Yes";
+
+
+"Permission.Access.Photos" = "We want to access your Photos to upload a picture. Do you want to proceed?";
+"Permission.Denied.Photos" = "You previously denied \"%@\" to access your Photos. Please go to Settings > Privacy > Photos to enabled it.";
+"Permission.Denied.Photos.OS8" = "You previously denied \"%@\" to access your Photos. Do you want to open Settings to enable it?";
+
+
+"Permission.Access.Locations" = "We want to access your Location to notify you when arrive or leave. Do you want to proceed?";
+"Permission.Denied.Locations" = "You previously denied \"%@\" to access your Location. Please go to Settings > Privacy > Location to enabled it.";
+"Permission.Denied.Locations.OS8" = "You previously denied \"%@\" to access your Location. Do you want to open Settings to enable it?";
+
+
+"Permission.Access.Contact" = "We want to access your Contacts to find friends for you. Do you want to proceed?";
+"Permission.Denied.Contact" = "You previously denied \"%@\" to access your Contacts. Please go to Settings > Privacy > Contacts to enabled it.";
+"Permission.Denied.Contact.OS8" = "You previously denied \"%@\" to access your Contacts. Do you want to open Settings to enable it?";
+
+
+"Permission.Access.Twitter" = "We want to access your Twitter account to find friends for you. Do you want to proceed?";
+"Permission.Denied.Twitter" = "You previously denied \"%@\" to access your Twitter account. Please go to Settings > Twitter  to enabled it.";
+"Permission.Denied.Twitter.OS8" = "You previously denied \"%@\" to access your Twitter account. Do you want to open Settings to enable it?";
+
+
+"Permission.Access.Notifications" = "We want to send you Push Notifications to keep you up to date. Do you want to proceed?";
+"Permission.Denied.Notifications" = "You previously denied \"%@\" to send you Push Notifications. Please go to Settings > Notification Center to enabled it.";
+"Permission.Denied.Notifications.OS8" = "You previously denied \"%@\" to send you Push Notifications. Do you want to open Settings to enable it?";

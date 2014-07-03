@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  GKPermission
+
+  Created by Georg Kitz on 01/07/14.
+  Copyright (c) 2014 Aurora Apps. All rights reserved.
+*/
+
+"NSLocationAlwaysUsageDescription" = "We want to access your location to notify you when arrive or leave. Do you want to proceed?";
