@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
                    * Supports Contacts/Photo/Social/Notifications/Location
                    DESC
 
-  s.homepage     = "http://github.com/gekitz/GKPermission"
+  s.homepage     = "https://github.com/gekitz/GKPermission"
   s.license      = "MIT"
   s.author             = { "Georg Kitz" => "georgkitz@gmail.com" }
   s.social_media_url   = "http://twitter.com/gekitz"
   s.platform     = :ios, "8.0"
   s.ios.deployment_target = "7.0"
-  s.source       = { :git => "http://github.com/gekitz/GKPermission.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/gekitz/GKPermission.git", :tag => "0.0.1" }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.frameworks = "CoreLocation", "AssetsLibrary", "AddressBook", "Accounts", "UIKit", "Foundation"
